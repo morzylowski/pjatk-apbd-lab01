@@ -11,7 +11,6 @@ public class Program
         int max = FindMaxValue(numbers);
         Console.WriteLine($"Maximum value: {max}");
     }
-
     public static double CalculateAverage3(int[] numbers)
     {
         if (numbers == null || numbers.Length == 0)
