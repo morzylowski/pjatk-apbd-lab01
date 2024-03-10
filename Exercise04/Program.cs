@@ -5,14 +5,13 @@ public class Program
     public static void Main(string[] args)
     {
         int[] numbers = { 10, 20, 30, 40, 50 };
-        double average = CalculateAverage2(numbers);
+        double average = CalculateAverage3(numbers);
         Console.WriteLine($"Average: {average}");
 
         int max = FindMaxValue(numbers);
         Console.WriteLine($"Maximum value: {max}");
     }
-
-    public static double CalculateAverage2(int[] numbers)
+    public static double CalculateAverage3(int[] numbers)
     {
         if (numbers == null || numbers.Length == 0)
         {
